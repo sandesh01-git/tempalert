@@ -1,13 +1,94 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  border-radius: 50px;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+  background: rgba(139, 133, 133, 0.5);;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-container {
+  height: 400px;
+  width: 300px;
+background-color: black;
+  border-radius: 50px;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+ 
+}
+
+.temperature-display-container {
+  display: flex;
+margin: auto;
+  align-items: center;
+  height: 70%;
+  width: 20rem;
+padding:auto;
+}
+
+.temperature-display {
+  display: flex;
+  border-radius: 50%;
+  color: red;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  border: 3px #ffffff solid;
+  transition: background 0.5s;
+}
+
+.tempdisplaycoler{
+  height: 200px;
+  width: 300px;
+  border-radius: 40%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  font-size: 32px;
+  color: red;
+  background: rgb(243, 213, 213);
+  border: 5px #000000 solid;
+  border-radius: 50%;
+}
+
+button:hover {
+  background: rgb(184, 184, 184);
+  cursor: pointer;
+}
+
+
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+
+.cold {
+  background: #B22222;
+}
+
+.hot {
+  background: #C21807;
+}
+
+.superhot {
+  background:#8D021F;
 }
